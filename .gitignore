@@ -1,0 +1,24 @@
+# Private documents, PDFs, OAuth tokens, temp outputs and evidence
+*.docx
+*.doc
+*.pdf
+*.bib
+.env
+.env.*
+!*.example
+*.token
+credentials.json
+.secrets/
+.private/
+outputs/
+backups/
+logs/
+harness/evidence/
+__pycache__/
+.venv/
+.codex/
+*.pyc
+*.docm
+*.dotx
+*.dotm
+*.token.*

@@ -1,0 +1,7 @@
+# Copy this section into Codex MCP configuration after completing OAuth login.
+# Only these metadata-reading tools are exposed; no catalog/PDF/write tools.
+[mcp_servers.mendeley]
+command = 'D:\MCP-MENDELEY\.venv\Scripts\mendeley-mcp.exe'
+enabled_tools = ["mendeley_search_library", "mendeley_get_document", "mendeley_list_documents", "mendeley_list_folders"]
+startup_timeout_sec = 30
+tool_timeout_sec = 60

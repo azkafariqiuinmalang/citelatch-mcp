@@ -1,0 +1,2 @@
+# Community library connector used by the local POC, not CiteLatch's own server.
+mendeley-mcp==0.8.0
